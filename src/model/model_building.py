@@ -102,7 +102,7 @@ def main():
         # test_tfidf.to_csv('data/processed/test_tfidf.csv', index=False)
 
         # ─ Load processed bow CSV ───────────────────────────────────────────
-        data_path = os.path.join(root, 'data', 'processed', 'test_bow.csv')
+        data_path = os.path.join(root, 'data', 'processed', 'test_tfidf.csv')
         df = load_data(data_path)
 
         # ─ Split into X / y ─────────────────────────────────────────────────────
